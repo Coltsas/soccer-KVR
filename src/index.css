@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin:0;
+  font-family: "Roboto";
+  color:crimson;
+
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #333;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: blue;
+}
+.content {
+  max-width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+.leagues-preview {
+  padding:10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  height: 20px;
+}
+.leagues-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.leagues-preview h2 {
+  font-size: 20px;
+  color: #0e0a0b;
+  margin: auto;
+}
+.leagues-preview a {
+ text-decoration: none;
+}
+
+
+.details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.details div {
+  margin: 20px 0;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-top: 1px solid #f2f2f2;
+}
+.footer p {
+color: #333;
+margin: auto;
+}
